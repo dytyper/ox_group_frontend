@@ -1,0 +1,31 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-inline: 24px;
+
+  .app-menu {
+    flex: 1;
+    min-width: 0;
+    line-height: 64px;
+    border-bottom: none;
+
+    .ant-menu-item {
+      min-width: 100px;
+      text-align: center;
+      margin-inline: 4px;
+    }
+  }
+
+  .app-header__logout {
+    flex-shrink: 0;
+  }
+}
+
+.app-content {
+  padding: 24px;
+}
